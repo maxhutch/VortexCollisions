@@ -1,0 +1,53 @@
+{
+  "density": 1.0,
+  "velocity": -1.0,
+  "radius" : 0.125,
+  "rho_cp": 1.0,
+  "tolrel": 1.0e-4,
+  "tolabs": 1.0e-4,
+  "wait_pres": 2.0,
+  "wait_vel": 2.0,
+  "cps": 1.0,
+  "bottom_bound": "SYM", 
+  "front_bound": "SYM", 
+  "top_bound": "W", 
+  "conductivity": 2.0e-4, 
+  "courant": 0.4, 
+  "num_steps": 21, 
+  "scale_mesh": [
+    1.0, 
+    1.0, 
+    1.0
+  ], 
+  "viscosity": 1.0e-3, 
+  "back_bound": "SYM", 
+  "left_bound": "SYM", 
+  "root_mesh": [
+    0.0, 
+    0.0, 
+    0.0
+  ], 
+  "io_step": 8.0, 
+  "kscal" : 1,
+  "extent_mesh": [
+    0.5, 
+    0.5, 
+    2.0
+  ], 
+  "dt": 1.0, 
+  "dt_initial": 1.0e-6,
+  "right_bound": "SYM", 
+  "dim": 3, 
+  "io_files": -256,
+  "io_time": 0.0, 
+  "npres" : 8.0,
+  "nvel" : 4.0,
+  "shape_mesh": [
+    64, 
+    64, 
+    256
+  ], 
+  "order": 8,
+  "dealiasing_order" : 12,
+  "procs" : 16384
+}
